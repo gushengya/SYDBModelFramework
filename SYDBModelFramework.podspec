@@ -5,10 +5,10 @@
 Pod::Spec.new do |spec|
 
 # 项目名称是必须填写的，可以通过pod search找到(必填)
-  spec.name         = "SYDBModelFramework" 
+  spec.name         = "SYDBModelFramework"
 
 # 项目版本号一定要与push tag的版本号一致(必填)
-  spec.version      = "v0.0.2"
+  spec.version      = "0.0.3"
 
 # 项目的简述不要与description描述一致，且长度要比descrition要短，否则发警告
   spec.summary      = "一个数据库存取模型化工具."
@@ -96,7 +96,7 @@ Pod::Spec.new do |spec|
 
 # ――― 图片资源文件路径，如果引用图片就填写 ―――――――――――――――――――――――――――― #
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png" 
+  # spec.resources = "Resources/*.png"
   # spec.resources = ["SYDBModel/SYDBModel/**/*.{bundle}"] # 建议把图片资源文件写成bundle包形式
 
 # 保存文件路径，不知含义
