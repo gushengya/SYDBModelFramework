@@ -1,0 +1,6 @@
+framework module SYDBModelFramework {
+  umbrella header "SYDBModelFramework.h"
+
+  export *
+  module * { export * }
+}
