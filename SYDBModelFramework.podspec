@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.name         = "SYDBModelFramework"
 
 # 项目版本号一定要与push tag的版本号一致(必填)
-  spec.version      = "0.0.3"
+  spec.version      = "v0.0.4"
 
 # 项目的简述不要与description描述一致，且长度要比descrition要短，否则发警告
   spec.summary      = "一个数据库存取模型化工具."
@@ -56,7 +56,7 @@ Pod::Spec.new do |spec|
 # pod就是根据这个配置才能找到你的项目文件，进而copy到使用者的工程内
 # 资源路径可以指向远端代码库也可以指向本地项目
 # 项目源代码位置一般就是一个github地址(:commit => "686868" 表示将这个Pod版本与Git仓库中某个commit绑定、:tag => 1.0.0表示与某个版本的commit绑定)
-  spec.source       = { :git => "https://github.com/gushengya/SYDBModelFramework.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/gushengya/SYDBModelFramework.git", :tag => "0.0.4" }
   # spec.source = { :path => ""}
   spec.vendored_frameworks = 'SYDBModelFramework.framework'
 
